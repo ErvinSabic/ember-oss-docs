@@ -102,3 +102,6 @@ h2#examples {
   content: ' ';
   height: 3px;
 }
+.prose :where(blockquote):not(:where([class~="not-prose"],[class~="not-prose"] *)){
+  color: unset;
+}
